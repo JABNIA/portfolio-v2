@@ -1,0 +1,47 @@
+@font-face {
+    font-family: 'LCD2';
+    src: url('./assets/fonts/LCD2Bold.woff2') format('woff2'),
+        url('./assets/fonts/LCD2Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'LCD2';
+    src: url('./assets/fonts/LCD2Bold.woff') format('woff2'),
+        url('./assets/fonts/LCD2Normal.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: LCD2, Arial, Helvetica, sans-serif;
+}
+
+
+.rect{
+    display: inline-block;
+    height: 1em;
+    width: 0.7em;
+    background-color: #18c332;
+    animation: flash;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-duration: 200ms;
+}
+
+@keyframes flash {
+    0% {
+        background-color: #18c332;
+        ;
+    }
+    100% {
+        background-color: transparent;
+    }
+}

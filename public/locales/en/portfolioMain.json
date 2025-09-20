@@ -1,0 +1,110 @@
+{
+    "name" : {
+        "title": "Name: ",
+        "description": "Vakhtangi Jabniashvili",
+        "titleVariant": "h4",
+        "descriptionVariant": "h4"
+    },
+    "location" : {
+        "title": "Location: ",
+        "description": "Tbilisi, Georgia",
+        "titleVariant": "subtitle1",
+        "descriptionVariant": "body1"
+    },
+    "email" : {
+        "title": "E-mail: ",
+        "description": "vakhojabniashvili@gmail.com"
+    },
+    "phoneNumber" : {
+        "title": "Phone: ",
+        "description": "+995-558-11-44-39"
+    },
+    "socials" : {
+        "title": "Socials: ",
+        "description": "socials"
+    },
+    "stackTitle" : {
+        "title": "Front-End Developer | React Specialist",
+        "description": "Detail-oriented and adaptable developer with hands-on experience building responsive SPAs using React, JavaScript, and modern web tools. Passionate about optimizing performance, refactoring code, and creating intuitive user interfaces.",
+        "titleVariant": "h5",
+        "descriptionVariant": "body1"
+    },
+    "techSkillsTittle" : {
+        "title": "Technical Skills",
+        "description": ""
+    },
+    "fEnd" : {
+        "title": "Front-End: ",
+        "description": "HTML5, CSS3, Mui, JavaScript (ES6+), TypeScript"
+    },
+    "framework" : {
+        "title": "Frameworks/Libraries: ",
+        "description": "React.js, Redux-Toolkit, React Router"
+    },
+    "tools" : {
+        "title": "Tools: ",
+        "description": "Git/GitHub, Chrome DevTools, Responsive Design"
+    },
+    "softSkills" : {
+        "title": "Soft Skills: ",
+        "description": "Problem-solving, teamwork, fast learner, adaptability"
+    },
+    "projects" : {
+        "title": "Projects",
+        "description": "Rating App / Tip Calculator / Dev Finder: Built interactive UIs with efficient algorithms",
+        "titleVariant": "h6",
+        "descriptionVariant": "body2"
+    },
+    "kingsMane" : {
+        "title": "KINGS MANE Barbershop | Full-Stack Development",
+        "description": "Developed from scratch, including UI, database, server, and API integration."
+    },
+    "reactApps" : {
+        "title": "React Applications",
+        "description": "Password Generator: Implemented UI + password generation algorithm."
+    },
+    "passGenerator" : {
+        "title": "Password Generator: ",
+        "description": "Implemented UI + password generation algorithm."
+    },
+    "audiophile" : {
+        "title": "Audiphile E-Commerce: ",
+        "description": "Refactored state management (reduced re-renders by 50%), integrated React Router, and optimized responsiveness"
+    },
+    "entertaiment" : {
+        "title": "Entertainment Website: ",
+        "description": "Connected database and implemented responsive UI."
+    },
+    "others" : {
+        "title": "Rating App / Tip Calculator / Dev Finder: ",
+        "description": "Built interactive UIs with efficient algorithms"
+    },
+    "edducation" : {
+        "title": "Education & Certifications",
+        "description": "Bachelor’s Degree in Social & Political Sciences"
+    },
+    "degree" : {
+        "title": "Degree: ",
+        "description": "Bachelor’s Degree in Social & Political Sciences"
+    },
+    "university" : {
+        "title": "University: ",
+        "description": "Ivane Javakhishvili Tbilisi State University | 2013–2017"
+    },
+    "certification" : {
+        "title": "Certifications: ",
+        "description": "Programming with React (Georgia's Innovation and Technology Agency, 2024), JavaScript Developer (Information Technologies Academy, 2023)"
+    },
+    "naprogramingWithReactme" : {
+        "title": "Programming with React (Georgia's Innovation and Technology Agency, 2024)",
+        "description": "Programming with React (Georgia's Innovation and Technology Agency, 2024)"
+    },
+    "itvet" : {
+        "title": "JavaScript Developer (Information Technologies Academy, 2023)",
+        "description": "JavaScript Developer (Information Technologies Academy, 2023)"
+    },
+    "languages" : {
+        "title": "Languages: ",
+        "description": "Georgian (Native) | Russian (Fluent) | English (B1/B2) | German (A2)"
+    }
+}
