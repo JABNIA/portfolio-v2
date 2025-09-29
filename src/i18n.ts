@@ -12,7 +12,10 @@ i18n
     fallbackLng: 'en',
     debug: true,
     ns:[
-        "portfolioMain"
+        "portfolioMain",
+        "navigation",
+        "about",
+        "homePage",
     ],
     defaultNS: "portfolioMain",
     backend: {
@@ -21,8 +24,6 @@ i18n
     interpolation: {
       escapeValue: false, 
     },
-
   });
-
 
 export default i18n;

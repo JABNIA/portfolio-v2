@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
-import { Box, Typography } from "@mui/material";
-import { colors } from "../../styles/colors";
+import { Typography } from "@mui/material";
+import { colors } from "../../../../styles/colors";
+
 
 function UiLine({ text, styling, vari }: { text: string; styling: string, vari: any }) {
   const [propText, setPropText] = useState<string>("")
@@ -14,7 +15,6 @@ function UiLine({ text, styling, vari }: { text: string; styling: string, vari: 
         const nestedTimeout = setTimeout(() => {
 
           setPropText(prev => prev + textSymbols[index])
-        
           
           return clearTimeout(nestedTimeout)
         }, 5)
@@ -37,9 +37,9 @@ function UiLine({ text, styling, vari }: { text: string; styling: string, vari: 
       >
         {text === "socials" ? 
         <>
-        <a href="https://www.linkedin.com/in/jabniashvili-vakho-97b676235/" target="_blank">Linked in</a>
-        <a href="https://www.linkedin.com/in/jabniashvili-vakho-97b676235/" target="_blank">Linked in</a>
-        <a href="https://www.linkedin.com/in/jabniashvili-vakho-97b676235/" target="_blank">Linked in</a>
+        <a href="https://www.linkedin.com/in/jabniashvili-vakho-97b676235/" target="_blank" className="resume-link">Linked in</a>/
+        <a href="https://github.com/JABNIA?tab=repositories" target="_blank" className="resume-link">GitHub</a>/
+        <a href="https://www.facebook.com/vaxo.jabniashvili" target="_blank" className="resume-link">Facebook</a>
         </>
         : propText}
         {propText.length < text.length ? <span className="rect"></span> : null}
@@ -48,8 +48,3 @@ function UiLine({ text, styling, vari }: { text: string; styling: string, vari: 
 }
 
 export default UiLine;
-
-
-function writeTexts(str: string, symbol: string): string {
-  return str + symbol;
-}
