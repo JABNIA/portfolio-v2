@@ -18,7 +18,7 @@ function ImageContainer() {
         }}
       >
         <img
-          src="./src/assets/images/avatar.jpeg"
+          src="./assets/images/avatar.jpeg"
           alt="avatar"
           style={{ width: "400px", height: "400px", objectFit: "cover" }}
         />
