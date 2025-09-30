@@ -1,5 +1,5 @@
 import { Box } from '@mui/material'
-import React, { type ReactNode } from 'react'
+import { type ReactNode } from 'react'
 import { colors } from '../../../../styles/colors'
 
 function IconHoc({isTs, children}: {isTs:boolean, children: ReactNode}) {

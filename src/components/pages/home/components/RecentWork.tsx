@@ -1,10 +1,10 @@
 import { Box, Typography, Button } from "@mui/material";
 import { colors } from "../../../../styles/colors";
-import { useTranslation } from "react-i18next";
+// import { useTranslation } from "react-i18next";
 
 
 function RecentWork(){
-  const { t: tHome } = useTranslation("homePage")
+  // const { t: tHome } = useTranslation("homePage")
 
     return (
       <Box sx={{

@@ -1,14 +1,14 @@
-import React, { useEffect, useState } from "react";
-import { Box, Typography } from "@mui/material";
+import { useEffect, useState } from "react";
 import { colors } from "../../../styles/colors";
 import { fonts } from "../../../styles/fonts";
 import { useTranslation } from "react-i18next";
-import Technologyes from "./components/Technologyes";
+import Technologies from "./components/Technologies";
 import DescriptionBox from "./components/DescriptionBox";
 import StackBox from "./components/StackBox";
 import ImageContainer from "./components/ImageContainer";
 import QuickFacts from "./components/QuickFacts";
 import ContactLinks from "./components/ContactLinks";
+import { Box, Typography } from "@mui/material";
 
 function About() {
   const [name, setName] = useState("");
@@ -66,6 +66,7 @@ function About() {
         </Typography>
         <StackBox />
         <DescriptionBox />
+        <Technologies />
         <QuickFacts />
         <ContactLinks />
       </Box>

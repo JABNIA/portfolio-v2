@@ -1,11 +1,10 @@
 import { Box, Typography } from "@mui/material";
-import React, { useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 import { useTranslation } from "react-i18next";
 import { fonts } from "../../../../styles/fonts";
 
 function describtionBox() {
   const [describtion, setDescribtion] = useState("");
-  const [title, setTitle] = useState("");
 
   const { t: tAbout } = useTranslation("about");
 

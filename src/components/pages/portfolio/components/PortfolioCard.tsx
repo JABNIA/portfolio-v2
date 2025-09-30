@@ -1,5 +1,4 @@
-import React from 'react'
-import { Box, Card, CardContent, CardActions, Typography, Button } from '@mui/material'
+import { Box, Card, CardContent, Typography, Button } from '@mui/material'
 import { colors } from '../../../../styles/colors'
 import { NavLink } from 'react-router-dom'
 

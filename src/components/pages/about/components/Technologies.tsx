@@ -1,9 +1,9 @@
-import React from 'react'
+ 
 import AboutBox from './AboutBox'
 import { Box } from '@mui/material'
 import { useTranslation } from 'react-i18next'
 
-function Technologyes() {
+function Technologies() {
   const { t: tAbout } = useTranslation("about");
   
   return (
@@ -22,4 +22,4 @@ function Technologyes() {
   )
 }
 
-export default Technologyes
+export default Technologies;

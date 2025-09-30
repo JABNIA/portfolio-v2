@@ -1,5 +1,4 @@
-import { Box, Button, Stack, Typography } from "@mui/material";
-import { colors } from "../../../../styles/colors";
+import { Stack } from "@mui/material";
 import Card from "./Card";
 
 const cardInfo = [ {

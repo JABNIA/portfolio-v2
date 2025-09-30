@@ -8,27 +8,26 @@ import { SiRedux } from "react-icons/si";
 import { FaGithub } from "react-icons/fa6";
 import IconHoc from "./IconHoc";
 
-const stylesForIcons = {
-  fontSize: "150px",
-  color: "#18c332",
-  "& :hover": {
-    fontSize: "180px",
-
-  }
-}
-
+// const stylesForIcons = {
+//   fontSize: "150px",
+//   color: "#18c332",
+//   "& :hover": {
+//     fontSize: "180px",
+//   },
+// };
 
 function TechIcons() {
   return (
     <Box
-    sx={{
-      height: "400px",
-      display: "flex",
-      justifyContent: "space-between",
-      alignItems: "center",
-      gap: "15px",
-      flexShrink: "0"
-    }}>
+      sx={{
+        height: "400px",
+        display: "flex",
+        justifyContent: "space-between",
+        alignItems: "center",
+        gap: "15px",
+        flexShrink: "0",
+      }}
+    >
       <IconHoc isTs={false}>
         <FaJsSquare />
       </IconHoc>

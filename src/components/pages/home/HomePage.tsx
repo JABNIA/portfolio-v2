@@ -1,9 +1,8 @@
 import { Box } from '@mui/material'
 import Hero from './components/Hero'
 import Highlights from './components/Highlights'
-import RecentWork from './components/RecentWork'
 import TechIcons from './components/TechIcons'
-import { lazy } from 'react'
+ 
 
 function HomePage() {
 

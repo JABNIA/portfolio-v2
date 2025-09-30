@@ -1,5 +1,4 @@
 import { Box, Typography } from "@mui/material";
-import { type ReactNode } from "react";
 import { colors } from "../../../../styles/colors";
 import { fonts } from "../../../../styles/fonts";
 
