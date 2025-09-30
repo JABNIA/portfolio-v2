@@ -90,7 +90,7 @@ function Hero() {
           }}
         >
           <img
-            src="./src/assets/images/avatar.jpeg"
+            src="./assets/images/avatar.jpeg"
             alt="Portrait"
             style={{ width: "100%", height: "100%", objectFit: "cover" }}
           />
