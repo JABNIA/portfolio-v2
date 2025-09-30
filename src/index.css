@@ -1,7 +1,7 @@
 @font-face {
     font-family: 'LCD2';
-    src: url('./assets/fonts/LCD2Bold.woff2') format('woff2'),
-        url('./assets/fonts/LCD2Bold.woff') format('woff');
+    src: url('/assets/fonts/LCD2Bold.woff2') format('woff2'),
+        url('/assets/fonts/LCD2Bold.woff') format('woff');
     font-weight: bold;
     font-style: normal;
     font-display: swap;
@@ -9,8 +9,8 @@
 
 @font-face {
     font-family: 'LCD2';
-    src: url('./assets/fonts/LCD2Bold.woff') format('woff2'),
-        url('./assets/fonts/LCD2Normal.woff') format('woff');
+    src: url('/assets/fonts/LCD2Bold.woff') format('woff2'),
+        url('/assets/fonts/LCD2Normal.woff') format('woff');
     font-weight: normal;
     font-style: normal;
     font-display: swap;
