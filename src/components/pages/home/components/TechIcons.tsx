@@ -26,6 +26,7 @@ function TechIcons() {
       display: "flex",
       justifyContent: "space-between",
       alignItems: "center",
+      gap: "15px",
       flexShrink: "0"
     }}>
       <IconHoc isTs={false}>

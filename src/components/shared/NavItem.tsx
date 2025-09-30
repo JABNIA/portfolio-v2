@@ -34,12 +34,19 @@ function NavItem({
         gap: "12px",
         borderRadius: "12px",
         mb: "6px",
+        transition: "color 300ms ease, box-shadow 300ms ease, background-size 300ms ease",
+        backgroundImage: "linear-gradient(#18c332, #18c332)",
+        backgroundRepeat: "no-repeat",
+        backgroundPosition: "0 0",
+        backgroundSize: "0%, 100%",
         "&:hover": {
-          color: colors.matrixGreen,
+          color: colors.mainDark,
+          backgroundSize: "100%, 100%",
+          boxShadow: "0 2px 12px #18c332"
         },
         "&.active": {
-          backgroundColor: colors.matrixGreen,
           color: colors.mainDark,
+          backgroundSize: "100%, 100%",
           boxShadow: "0 2px 12px rgba(24,195,50,0.35)",
         },
       }}
