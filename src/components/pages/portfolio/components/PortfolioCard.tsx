@@ -1,6 +1,7 @@
 import { Box, Card, CardContent, Typography, Button } from '@mui/material'
 import { colors } from '../../../../styles/colors'
 import { NavLink } from 'react-router-dom'
+import { fonts } from '../../../../styles/fonts'
 
 type PortfolioCardProps = {
   title: string
@@ -13,6 +14,11 @@ const buttonStyles = {
   width: "350px",
   height: "50px",
   mx: "0",
+  fontFamily: fonts.defaultFonts,
+  fontWeight: "bold",
+  fontSize: "18px",
+  borderRadius: "10px",
+  border: `1px solid ${colors.mainDark}`,
   backgroundColor: colors.matrixGreen,
   color: colors.mainDark,
   "&:hover": {

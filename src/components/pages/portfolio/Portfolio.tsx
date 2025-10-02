@@ -12,7 +12,6 @@ function Portfolio() {
     }}>
       <Stack spacing={3}>
         <PortfolioHeader />
-        <PortfolioFilters />
         <PortfolioGrid />
         <PortfolioCTA />
       </Stack>
