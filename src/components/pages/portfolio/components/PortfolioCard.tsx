@@ -28,6 +28,11 @@ const buttonStyles = {
 }
 }
 
+const typoStyles = {
+  fontFamily: fonts.defaultFonts,
+  color: colors.matrixGreen,
+}
+
 
 function PortfolioCard({ title, description, link, image }: PortfolioCardProps) {
   return (
@@ -51,10 +56,10 @@ function PortfolioCard({ title, description, link, image }: PortfolioCardProps) 
             borderRadius: "10px",
           }}/>
         </Box>
-        <Typography variant="h6" sx={{ color: colors.matrixGreen }}>
+        <Typography variant="h6" sx={{ ...typoStyles }}>
           {title}
         </Typography>
-        <Typography variant="body2" sx={{ color: colors.matrixGreen }}>
+        <Typography variant="body2" sx={{ ...typoStyles }}>
           {description}
         </Typography>
       </CardContent>
@@ -71,9 +76,6 @@ function PortfolioCard({ title, description, link, image }: PortfolioCardProps) 
           }}>
           Visit
           </NavLink>
-        </Button>
-        <Button sx={{...buttonStyles}}>
-          Source
         </Button>
       </Box>
     </Card>
